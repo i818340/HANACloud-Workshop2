@@ -1,0 +1,14 @@
+{
+  "role": {
+    "name": "SELECT_ON_TLOG_F_C",
+    "object_privileges": [
+      {
+        "name": "TLOG_F_C",
+        "type": "TABLE",
+        "privileges": [
+          "SELECT"
+        ]
+      }
+    ]
+  }
+}

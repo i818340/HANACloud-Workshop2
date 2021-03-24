@@ -1,0 +1,28 @@
+
+== version = 1
+
+column table "TLOG_F_C" (
+   "Index"  NVARCHAR(200),
+   "ClientID"  NVARCHAR(200),
+   "Name"  NVARCHAR(200),
+   "Gender"  NVARCHAR(200),
+   "Birthdate"  DATE,
+   "Occupation"  NVARCHAR(200),
+   "City"  NVARCHAR(200),
+   "City_"  NVARCHAR(200),
+   "latitude"  NVARCHAR(200),
+   "longitude"  NVARCHAR(200),
+   "OrderID"  NVARCHAR(200),
+   "OrderDate"  DATE,
+   "OrderYear"  INTEGER,
+   "OrderPrice"  DECIMAL(10, 2),
+   "OrderPay"  DECIMAL(10, 2),
+   "No.OrderItems"  INTEGER,
+   "ProductName"  NVARCHAR(200),
+   "ItemCategory"  NVARCHAR(200),
+   "ItemPrice"  DECIMAL(10, 2),
+   "ItemSoldPrice"  DECIMAL(10, 2),
+   "ItemDiscount"  DECIMAL(10, 2),
+   "No.Item"  INTEGER,	
+   "ItemTotalSoldPrice"  DECIMAL(10, 2)
+)
